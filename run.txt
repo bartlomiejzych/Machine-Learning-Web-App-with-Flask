@@ -1,0 +1,1 @@
+docker run -p 8502:8501 --mount type=bind,source=C:/Studia/PPP/Machine-Learning-Web-App-with-Flask/models/emotion_model/,target=/models/emotion_model/1 -e MODEL_NAME=emotion_model -t tensorflow/serving
